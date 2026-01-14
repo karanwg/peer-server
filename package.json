@@ -1,0 +1,22 @@
+{
+  "name": "peer-server",
+  "version": "1.0.0",
+  "description": "PeerJS-compatible signaling server for WebRTC P2P connections",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": ["peerjs", "webrtc", "signaling", "p2p"],
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
